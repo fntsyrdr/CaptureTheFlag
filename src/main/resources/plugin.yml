@@ -1,0 +1,16 @@
+name: CaptueTheFlag
+version: '${project.version}'
+main: scarcity.captuetheflag.CaptueTheFlag
+api-version: 1.19
+authors: [ fntsyrdr ]
+description: Creates a flag in the form of a particle affect and flag zones with which you can capture said flag. Uses commands to pick up and set down the flag.
+commands:
+  StartCTFGame:
+    description: Allows you to start a CTF Game
+    usage: /<command> [time of game in ms]
+  PickUpFlag:
+    description: Allows you to pick up flag
+    usage: /<command>
+  DropFlag:
+    description: Allows you to drop flag
+    usage: /<command>
